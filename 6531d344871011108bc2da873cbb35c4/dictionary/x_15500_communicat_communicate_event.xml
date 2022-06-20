@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Communicate Event" max_length="40" name="x_15500_communicat_communicate_event" type="collection">
+        <element label="Email" max_length="40" name="email" type="boolean"/>
+        <element label="SMS" max_length="40" name="sms" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="SMS Body" max_length="160" name="sms_body" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Type" max_length="40" name="type" type="string"/>
+        <element label="Voice" max_length="40" name="voice" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Voice Body" max_length="300" name="voice_body" type="string"/>
+    </element>
+</database>
